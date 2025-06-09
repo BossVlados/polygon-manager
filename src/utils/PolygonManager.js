@@ -1,10 +1,6 @@
 export class PolygonManager {
     constructor() {
-        this.colors = [
-            '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FECA57',
-            '#FF9FF3', '#54A0FF', '#5F27CD', '#00D2D3', '#FF9F43',
-            '#10AC84', '#EE5A24', '#0652DD', '#9C88FF', '#FFC312'
-        ];
+        this.colors = '#940024';
     }
 
     generatePolygons(count) {
