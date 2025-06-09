@@ -1,6 +1,6 @@
 export class PolygonManager {
     constructor() {
-        this.colors = '#940024';
+        this.redColor = '#940024';
     }
 
     generatePolygons(count) {
@@ -17,7 +17,7 @@ export class PolygonManager {
 
     generatePolygon(vertexCount) {
         const id = this.generateId();
-        const color = this.colors[Math.floor(Math.random() * this.colors.length)];
+        const color = this.redColor; // Всегда используем красный цвет
         const points = this.generatePolygonPoints(vertexCount);
         
         return {
